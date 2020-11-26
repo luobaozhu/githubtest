@@ -13,6 +13,9 @@ def getFileMd5(path):
     return fmd5
 
 
+
+
+
 def getMd5DataFrame(directoryType):
     directory = "/data/deployments/%s/sparkJobs" % directoryType
     data = []
